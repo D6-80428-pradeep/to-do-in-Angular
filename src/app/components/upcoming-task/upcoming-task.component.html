@@ -1,0 +1,10 @@
+
+<div class="upcoming-task-container">
+    <h3>Upcoming Tasks</h3>
+    <ul class="list-group">
+      <li *ngFor="let task of upcomingTasks" class="list-group-item">
+        {{ task.title }} - {{ task.dueDate | date:'medium' }}
+      </li>
+    </ul>
+  </div>
+  

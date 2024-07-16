@@ -1,0 +1,17 @@
+<div class="right-corner-container">
+    <h2>{{ currentTime | date: 'HH:mm:ss' }}</h2>
+    <p>{{ currentTime | date: 'd MMMM y' }}</p>
+    <div style="display: flex; justify-content: center; margin-top: 10px;">
+        <div class="nav-buttons" style="display: flex; justify-content: space-between; width: 700px;">
+            <button id="prevButton" class="btn btn-primary" (click)="prevDay()">
+              &lt;
+            </button>
+            <p style="margin: 0; font-size: 18px; text-align: center;">{{ currentTime | date: 'fullDate' }}</p>
+            <button id="nextButton" class="btn btn-primary" (click)="nextDay()">
+              &gt;
+            </button>
+        </div>
+    </div>
+    <p>Current Points: {{ points }}</p>
+    <p>Complete tasks on time to earn more points!</p>
+</div>

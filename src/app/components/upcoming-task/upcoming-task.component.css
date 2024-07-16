@@ -1,0 +1,22 @@
+.upcoming-task-container {
+  position: absolute;
+  top:400px;
+   right: 30px;
+    width: 550px;
+    margin: 20px auto;
+    padding: 10px;
+    border: 1px solid #e6e6e6;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    background-color: rgb(242, 253, 253);
+  }
+  
+  .list-group {
+    margin-top: 10px;
+  }
+  
+  .list-group-item {
+    background-color: #f8f9fa;
+    border-color: #ced4da;
+  }
+  
